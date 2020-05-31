@@ -33,13 +33,19 @@
         <div class="contact">
           <ul class="navig">
             <li class="style">
-              <a href="mailto:info@devstudio.com" class="link link-contact"
-                >info@devstudio.com</a
+              <a href="mailto:info@devstudio.com" class="link link-contact">
+                <svg class="icon" width="16" height="11.2">
+                  <use href="./images/sprite.svg#mail"></use>
+                </svg>
+                info@devstudio.com</a
               >
             </li>
             <li class="style">
-              <a href="tel:+380961111111" class="link link-contact"
-                >+38-096-111-11-11</a
+              <a href="tel:+380961111111" class="link link-contact">
+                <svg class="icon" width="10" height="15">
+                  <use href="./images/sprite.svg#smartphone"></use>
+                </svg>
+                +38-096-111-11-11</a
               >
             </li>
           </ul>
@@ -66,9 +72,11 @@
           <h2>Особенности</h2>
           <ul>
             <li>
-              <svg class="icon">
-                <use href="./images/sprite#icon-clock"></use>
-              </svg>
+              <div class="background">
+                <svg class="icon">
+                  <use href="./images/sprite.svg#antenna"></use>
+                </svg>
+              </div>
               <h3>Внимание к деталям</h3>
               <p>
                 Идейные соображения, а также начало повседневной работы по
@@ -76,9 +84,11 @@
               </p>
             </li>
             <li>
-              <svg>
-                <use href="./images/sumbol-defs#icon-icon-clock"></use>
-              </svg>
+              <div class="background">
+                <svg class="icon">
+                  <use href="./images/sprite.svg#clock"></use>
+                </svg>
+              </div>
               <h3>Пунктуальность</h3>
               <p>
                 Задача организации, в особенности же рамки и место обучения
@@ -86,9 +96,11 @@
               </p>
             </li>
             <li>
-              <svg>
-                <use href="./images/sumbol-defs#icon-clock"></use>
-              </svg>
+              <div class="background">
+                <svg class="icon">
+                  <use href="./images/sprite.svg#diagram"></use>
+                </svg>
+              </div>
               <h3>Планирование</h3>
               <p>
                 Равным образом консультация с широким активом в значительной
@@ -96,12 +108,11 @@
               </p>
             </li>
             <li>
-              <img
-                src="./images/astronaut.svg"
-                alt="астронавт"
-                width="70"
-                height="70"
-              />
+              <div class="background">
+                <svg class="icon">
+                  <use href="./images/sprite.svg#astronaut"></use>
+                </svg>
+              </div>
               <h3>Современные технологии</h3>
               <p>
                 Значимость этих проблем настолько очевидна, что реализация
@@ -155,200 +166,142 @@
           <h2>Наша команда</h2>
           <ul class="card">
             <li>
-              <a href="#">
-                <img
-                  src="./images/john_smith.jpg"
-                  alt="John Smith"
-                  width="270"
-                  height="260"
-                />
-              </a>
+              <img src="./images/john_smith.jpg" alt="John Smith" width="270" height="260" />
               <h3>John Smith</h3>
               <p>Product Designer</p>
               <ul class="social">
                 <li>
-                  <a href="https://www.instagram.com">
-                    <img
-                      src="./images/instagram.svg"
-                      alt="иконка инстаграм"
-                      width="20"
-                      height="20"
-                  /></a>
-                </li>
-                <li>
-                  <a href="https://www.twitter.com">
-                    <img
-                      src="./images/twitter.svg"
-                      alt="иконка твитер"
-                      width="20"
-                      height="20"
-                  /></a>
-                </li>
-                <li>
-                  <a href="https://www.facebook.com">
-                    <img
-                      src="./images/facebook.svg"
-                      alt="иконка фейсбук"
-                      width="20"
-                      height="20"
-                    />
+                  <a href="https://www.instagram.com" class="social-link">
+                    <svg width="20" height="20">
+                      <use href="./images/sprite.svg#instagram"></use>
+                    </svg>
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.linkedin.com">
-                    <img
-                      src="./images/linkedin.svg"
-                      alt="иконка линкедин"
-                      width="20"
-                      height="20"
-                  /></a>
+                  <a href="https://www.twitter.com" class="social-link">
+                    <svg width="20" height="20">
+                      <use href="./images/sprite.svg#twitter"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.facebook.com" class="social-link">
+                    <svg width="20" height="20">
+                      <use href="./images/sprite.svg#facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com" class="social-link">
+                    <svg width="20" height="20">
+                      <use href="./images/sprite.svg#linkedin"></use>
+                    </svg>
+                  </a>
                 </li>
               </ul>
             </li>
             <li>
-              <a href="#"
-                ><img
-                  src="./images/marta_stewart.jpg"
-                  alt="Marta Stewart"
-                  width="270"
-                  height="260"
-              /></a>
+              <img src="./images/marta_stewart.jpg" alt="Marta Stewart" width="270" height="260" />
               <h3>Marta Stewart</h3>
               <p>Frontend Developer</p>
               <ul class="social">
                 <li>
-                  <a href="https://www.instagram.com"
-                    ><img
-                      src="./images/instagram.svg"
-                      alt="иконта инстаграм"
-                      width="20"
-                      height="20"
-                  /></a>
+                  <a href="https://www.instagram.com" class="social-link">
+                    <svg width="20" height="20">
+                      <use href="./images/sprite.svg#instagram"></use>
+                    </svg>
+                  </a>
                 </li>
                 <li>
-                  <a href="https://www.twitter.com"
-                    ><img
-                      src="./images/twitter.svg"
-                      alt="икока твитер"
-                      width="20"
-                      height="20"
-                  /></a>
+                  <a href="https://www.twitter.com" class="social-link">
+                    <svg width="20" height="20">
+                      <use href="./images/sprite.svg#twitter"></use>
+                    </svg>
+                  </a>
                 </li>
                 <li>
-                  <a href="https://www.facebook.com"
-                    ><img
-                      src="./images/facebook.svg"
-                      alt="иконка фейсбук"
-                      width="20"
-                      height="20"
-                  /></a>
+                  <a href="https://www.facebook.com" class="social-link">
+                    <svg width="20" height="20">
+                      <use href="./images/sprite.svg#facebook"></use>
+                    </svg>
+                  </a>
                 </li>
                 <li>
-                  <a href="https://www.linkedin.com"
-                    ><img
-                      src="./images/linkedin.svg"
-                      alt="иконка линкедин"
-                      width="20"
-                      height="20"
-                  /></a>
+                  <a href="https://www.linkedin.com" class="social-link">
+                    <svg width="20" height="20">
+                      <use href="./images/sprite.svg#linkedin"></use>
+                    </svg>
+                  </a>
                 </li>
               </ul>
             </li>
             <li>
-              <a href="#"
-                ><img
-                  src="./images/robert_jakis.jpg"
-                  alt="Robert Jakis"
-                  width="270"
-                  height="260"
-              /></a>
+              <img src="./images/robert_jakis.jpg" alt="Robert Jakis" width="270" height="260" /></a>
               <h3>Robert Jakis</h3>
               <p>Marketing</p>
               <ul class="social">
                 <li>
-                  <a href="https://www.instagram.com"
-                    ><img
-                      src="./images/instagram.svg"
-                      alt="иконка инстаграм"
-                      width="20"
-                      height="20"
-                  /></a>
+                  <a href="https://www.instagram.com" class="social-link">
+                    <svg width="20" height="20">
+                      <use href="./images/sprite.svg#instagram"></use>
+                    </svg>
+                  </a>
                 </li>
                 <li>
-                  <a href="https://www.twitter.com"
-                    ><img
-                      src="./images/twitter.svg"
-                      alt="иконка твитер"
-                      width="20"
-                      height="20"
-                  /></a>
+                  <a href="https://www.twitter.com" class="social-link">
+                    <svg width="20" height="20">
+                      <use href="./images/sprite.svg#twitter"></use>
+                    </svg>
+                  </a>
                 </li>
                 <li>
-                  <a href="https://www.facebook.com"
-                    ><img
-                      src="./images/facebook.svg"
-                      alt="иконка фейсбук"
-                      width="20"
-                      height="20"
-                  /></a>
+                  <a href="https://www.facebook.com" class="social-link">
+                    <svg width="20" height="20">
+                      <use href="./images/sprite.svg#facebook"></use>
+                    </svg>
+                  </a>
                 </li>
                 <li>
-                  <a href="https://www.linkedin.com"
-                    ><img
-                      src="./images/linkedin.svg"
-                      alt="иконка линкедин"
-                      width="20"
-                      height="20"
-                  /></a>
+                  <a href="https://www.linkedin.com" class="social-link">
+                    <svg width="20" height="20">
+                      <use href="./images/sprite.svg#linkedin"></use>
+                    </svg>
+                  </a>
                 </li>
               </ul>
             </li>
             <li>
-              <a href="#"
-                ><img
-                  src="./images/martin_doe.jpg"
-                  alt="Martin Doe"
-                  width="270"
-                  height="260"
-              /></a>
+              <img src="./images/martin_doe.jpg" alt="Martin Doe" width="270" height="260" />
               <h3>Martin Doe</h3>
               <p>UI Designer</p>
               <ul class="social">
                 <li>
-                  <a href="https://www.instagram.com"
-                    ><img
-                      src="./images/instagram.svg"
-                      alt="иконка инстаграм"
-                      width="20"
-                      height="20"
-                  /></a>
+                  <a href="https://www.instagram.com" class="social-link">
+                    <svg width="20" height="20">
+                      <use href="./images/sprite.svg#instagram"></use>
+                    </svg>
+                  </a>
                 </li>
                 <li>
-                  <a href="https://www.twitter.com"
-                    ><img
-                      src="./images/twitter.svg"
-                      alt="иконка твитер"
-                      width="20"
-                      height="20"
-                  /></a>
+                  <a href="https://www.twitter.com" class="social-link">
+                    <svg width="20" height="20">
+                      <use href="./images/sprite.svg#twitter"></use>
+                    </svg>
+                  </a>
                 </li>
                 <li>
-                  <a href="https://www.facebook.com"
-                    ><img
-                      src="./images/facebook.svg"
-                      alt="иконка фейсбук"
-                      width="20"
-                      height="20"
-                  /></a>
+                  <a href="https://www.facebook.com" class="social-link">
+                    <svg width="20" height="20">
+                      <use href="./images/sprite.svg#facebook"></use>
+                    </svg>
+                  </a>
                 </li>
                 <li>
-                  <a href="https://www.linkedin.com"
-                    ><img
-                      src="./images/linkedin.svg"
-                      alt="иконка линкедин"
-                      width="20"
-                      height="20"
-                  /></a>
+                  <a href="https://www.linkedin.com" class="social-link">
+                    <svg width="20" height="20">
+                      <use href="./images/sprite.svg#linkedin"></use>
+                    </svg>
+                  </a>
                 </li>
               </ul>
             </li>
@@ -361,58 +314,46 @@
           <h2>Постоянные клиенты</h2>
           <ul>
             <li>
-              <a href="#"
-                ><img
-                  src="./images/client_1.svg"
-                  alt="YA & CO"
-                  width="170"
-                  height="90"
-              /></a>
+              <a href="#" class="customer-link">
+                <svg width="44" height="49">
+                  <use href="./images/sprite.svg#client_1"></use>
+                </svg>
+              </a>
             </li>
             <li>
-              <a href="#"
-                ><img
-                  src="./images/client_2.svg"
-                  alt="Kompany tagline here"
-                  width="170"
-                  height="90"
-              /></a>
+              <a href="#" class="customer-link">
+                <svg width="40" height="52">
+                  <use href="./images/sprite.svg#client_2"></use>
+                </svg>
+              </a>
             </li>
             <li>
-              <a href="#"
-                ><img
-                  src="./images/client_3.svg"
-                  alt="company"
-                  width="170"
-                  height="90"
-              /></a>
+              <a href="#" class="customer-link">
+                <svg width="41" height="43">
+                  <use href="./images/sprite.svg#client_3"></use>
+                </svg>
+              </a>
             </li>
             <li>
-              <a href="#"
-                ><img
-                  src="./images/client_4.svg"
-                  alt="foster peters"
-                  width="170"
-                  height="90"
-              /></a>
+              <a href="#" class="customer-link">
+                <svg width="80" height="42">
+                  <use href="./images/sprite.svg#client_4"></use>
+                </svg>
+              </a>
             </li>
             <li>
-              <a href="#"
-                ><img
-                  src="./images/client_5.svg"
-                  alt="brand"
-                  width="170"
-                  height="90"
-              /></a>
+              <a href="#" class="customer-link">
+                <svg width="59" height="47">
+                  <use href="./images/sprite.svg#client_5"></use>
+                </svg>
+              </a>
             </li>
             <li>
-              <a href="#"
-                ><img
-                  src="./images/client_6.svg"
-                  alt="company tag line"
-                  width="170"
-                  height="90"
-              /></a>
+              <a href="#" class="customer-link">
+                <svg width="88" height="45">
+                  <use href="./images/sprite.svg#client_6"></use>
+                </svg>
+              </a>
             </li>
           </ul>
         </div>
@@ -444,47 +385,43 @@
             <b>присоединяйтесь</b>
             <ul class="social">
               <li>
-                <a href="https://www.instagram.com"
-                  ><img
-                    src="./images/instagram.svg"
-                    alt="иконка инстаграм"
-                    width="20"
-                    height="20"
-                /></a>
+                <a href="https://www.instagram.com" class="main-link">
+                  <svg width="20" height="20">
+                    <use href="./images/sprite.svg#instagram"></use>
+                  </svg>
+                </a>
               </li>
               <li>
-                <a href="https://www.twitter.com"
-                  ><img
-                    src="./images/twitter.svg"
-                    alt="иконка твиттер"
-                    width="20"
-                    height="20"
-                /></a>
+                <a href="https://www.twitter.com" class="main-link">
+                  <svg width="20" height="20">
+                    <use href="./images/sprite.svg#twitter"></use>
+                  </svg>
+                </a>
               </li>
               <li>
-                <a href="https://www.facebook.com"
-                  ><img
-                    src="./images/facebook.svg"
-                    alt="иконка фейсбук"
-                    width="20"
-                    height="20"
-                /></a>
+                <a href="https://www.facebook.com" class="main-link">
+                  <svg width="20" height="20">
+                    <use href="./images/sprite.svg#facebook"></use>
+                  </svg>
+                </a>
               </li>
               <li>
-                <a href="https://www.linkedin.com"
-                  ><img
-                    src="./images/linkedin.svg"
-                    alt="иконка линкедин"
-                    width="20"
-                    height="20"
-                /></a>
+                <a href="https://www.linkedin.com" class="main-link">
+                  <svg width="20" height="20">
+                    <use href="./images/sprite.svg#linkedin"></use>
+                  </svg>
+                </a>
               </li>
             </ul>
           </div>
           <div class="form-stule">
             <b>подпишитесь на рассылку</b>
             <input type="email" placeholder="E-mail" value="" name="email" />
-            <button type="button" class="button">Подписаться</button>
+            <button type="button" class="button-footer"> Подписаться
+              <svg width="24" height="24">
+                <use href="./images/sprite.svg#send"></use>
+              </svg>
+            </button>
           </div>
         </div>
         <div><p>2020 | Developed by GoIT Students</p></div>
